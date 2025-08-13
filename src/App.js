@@ -6,7 +6,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin:'https://code-reviwer-wcgk.vercel.app/'
+  origin: "*"
 }));
 
 app.use(express.json());
